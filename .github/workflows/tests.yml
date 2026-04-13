@@ -24,4 +24,4 @@ jobs:
           pip install pytest pytest-cov
 
       - name: Run tests
-        run: pytest --cov=subject_manager --cov-fail-under=75
+        run: pytest --cov=subman --cov-fail-under=75
